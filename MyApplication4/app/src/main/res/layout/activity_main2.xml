@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/outerbox"
+            android:background="#73D1FC"/>
+    <TextView
+            android:layout_alignCenter="@id/outerbox"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/innerbox"
+            android:background="#FF6C9C"
+    />
+    <TextView
+
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/textView4"/>
+</RelativeLayout>
